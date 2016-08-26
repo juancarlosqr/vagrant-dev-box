@@ -20,7 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # install docker on vm
-  # config.vm.provision "docker"
+  config.vm.provision "docker"
 
   # install required software, dependencies and configurations
   # on the virtual machine using a provisioner.
