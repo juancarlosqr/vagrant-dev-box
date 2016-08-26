@@ -2,7 +2,9 @@
   become: true
   apt: pkg={{ item }} state=installed update_cache=yes
   with_items:
-      # Python
-      - python-dev
-      - python-setuptools
-      - python-virtualenv
+    - git
+
+    # Python
+    - python-dev
+    - python-setuptools
+    - python-virtualenv

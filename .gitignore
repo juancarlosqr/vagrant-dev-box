@@ -1,5 +1,8 @@
 .vagrant/
 
+# ansible
+playbook.retry
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -94,4 +97,4 @@ ENV/
 .ropeproject
 
 # source code
-.src/*
+src/*
