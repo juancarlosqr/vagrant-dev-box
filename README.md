@@ -1,5 +1,9 @@
 # vagrant-dev-box
 
+## State
+
+I need to fix the node/nvm provisioning (disabled)
+
 ## Usage
 
 ### Install ansible roles

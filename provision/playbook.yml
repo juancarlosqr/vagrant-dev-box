@@ -1,8 +1,8 @@
 - hosts: all
-  become: true
+  # become: true
   roles:
     - setup
-    - pablocrivella.nvm
-  vars:
-    nvm_version: v0.31.6
-    nvm_default_node_version: 5
+  #   - pablocrivella.nvm
+  # vars:
+  #   nvm_version: v0.31.6
+  #   nvm_default_node_version: 5
